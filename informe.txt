@@ -1,0 +1,4 @@
+baseline retrieval score = 2.16
+baseline corrigiendo bug idx_ = 1.80
+consistencia geometrica utilizando np.float64 = 2.56 (min_samples = 5, threshold=3, good match 0.75 distance)
+consistencia geometrica con np.float32 y capturando excepciones = 2.54 (min_samples = 5, threshold=3, good match 0.75 distance)

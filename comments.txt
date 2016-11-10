@@ -1,0 +1,31 @@
+1) Verificacion geometrica
+Matching entre descriptores y estimar estimacionas afin mediante RANSAC
+Guardar descriptores sift, keypoints, leer descriptroes
+Scikit Image 
+
+Score entre 0 y 4 primeros 100 2.35 
+verificacion geometrica 2.8
+ 
+2) Implemtentar PCA
+
+Calcular matriz de covarianza usar val, vec = np.linalg.eigh
+
+tomar los samples de cache, y crear P, mu
+    # P, mu  = pca_fit(samples)
+    agarrar los features de cache y aplicar pca_project a c/*.feat(hacer un for por vectores fila) y guardar el .feat proyectado
+
+    # pca_samples = []
+    # for sample in samples:
+    #     pca_sample = pca_project(x, P, mu, 16) # 16, 32
+    #     pca_samples.append(pca_sample)
+
+    despues de proyectar los features tomar np.linalg.norm a c/feature dividirlo por la norma + un epsilon
+
+    Guardar P, mu 
+
+
+scikit-image==0.12.3
+scikit-learn==0.17.1
+multiprocessing==2.6.2.1
+scipy
+
